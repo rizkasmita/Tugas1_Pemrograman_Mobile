@@ -1,0 +1,30 @@
+name: tugas_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/hamster.jpg
+    - assets/image/two-cups-coffee-with-latte-art-tray.jpg
+    - assets/image/plate-cheesecake-piece-garnished-with-apricot-slices.jpg
+    - assets/image/glass-matcha-green-tea-with-latte-art-top-1.jpg
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
